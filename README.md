@@ -121,7 +121,7 @@ it will have more noticeable effect on latency.
 - Contrary to the previous observation: when processes don't crash (i.e. _a = 0_),
 on _N = 100_ actors, the system finishes before leader election.
 However, when processes do crash (i.e. _a > 0_), the average latency is longer than _tle_.
-That shows that with crash prone processes and large enough _N_, it is harder to reach consensus. 
+That shows that with crash prone processes and large enough _N_, it is harder to reach consensus without leader. 
 
 
 - It is clear that with longer leader election timeouts, the average latency increases.
